@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "lib": ["es2015"],
+    "target": "es2015",
+    "module": "commonjs",
+    "outDir": "dist",
+    "preserveConstEnums": true,
+    "moduleResolution": "node",
+    "types": ["node"],
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
